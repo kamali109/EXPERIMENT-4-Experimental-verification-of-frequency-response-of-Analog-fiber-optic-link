@@ -1,10 +1,10 @@
 
 # Exp 4 Experimental verification of frequency response of Analog fiber optic link
+
 # Fiber Optic Link Analysis (660nm)
 
 ## AIM
 To analyze the relationship between input and received signal of a 660nm fiber optic cable using analog and digital link.
-
 ---
 
 ## EQUIPMENTS REQUIRED
@@ -13,7 +13,6 @@ To analyze the relationship between input and received signal of a 660nm fiber o
 - Patch cords  
 - CRO (Cathode Ray Oscilloscope)  
 - 660 nm fiber cable  
-
 ---
 
 ## THEORY
@@ -43,32 +42,43 @@ Fiber optic links can be used for transmission of digital as well as analog sign
 
 ## BLOCK DIAGRAM
 
-*(Insert block diagram here)*
-
+<img width="1189" height="704" alt="image" src="https://github.com/user-attachments/assets/0ea9b309-7587-40d3-825e-336758e559f5" />
 ---
 
 ## CONNECTION DIAGRAM  
 **Setting up an Analog Link**
 
-*(Insert connection diagram here)*
-
----
+<img width="1280" height="976" alt="image" src="https://github.com/user-attachments/assets/76c8e66f-f4e4-43e3-968b-eb69f0ffa0fe" />
 
 ## TABULATION  
 **Transmission through Analog Link**
 
 | Frequency (Hz) | Output Signal Amplitude (Vo) | Gain = Vo/Vi | Gain in dB |
 |----------------|------------------------------|--------------|------------|
-|                |                              |              |            |
-
+|      800       |           120 mV             |    0.024     |  -32.395   |
+|      1.5k      |           216 mV             |    0.0432    |  -27.290   |
+|      3k        |           412 mV             |    0.134     |  -21.681   |
+|      5k        |           670 mV             |    0.1848    |  -17.457   |
+|      7k        |           924 mV             |    0.19      |  -14.665   |
+|      9k        |           950 mV             |    0.19      |  -14.424   |
+|      11k       |           950 mV             |    0.19      |  -14.424   |
+|      13k       |           950 mV             |    0.19      |  -14.424   |
+|      15k       |           950 mV             |    0.19      |  -14.424   |
+|      50k       |           840 mV             |    0.168     |  -15.493   |
+|      200k      |           385 mV             |    0.077     |  -22.270   |
+|      600k      |           280 mV             |    0.056     |  -25.036   |
+|      800k      |           95 mV              |    0.19      |  -34.424   |
+|      1M        |           58 mV              |    0.011     |  -39.172   |
 ---
 
 ## MODEL GRAPH
 
-*(Insert model graph here)*
+<img width="1080" height="538" alt="image" src="https://github.com/user-attachments/assets/c5f9d252-5123-4fa9-b8a1-e8f3d1fef945" />
 
----
+## GRAPH
+
+![WhatsApp Image 2025-11-18 at 22 59 27_7a529bea](https://github.com/user-attachments/assets/655c8479-6643-4ff5-858f-402c16bf63c8)
 
 ## RESULT
 
-*(Summarize observations and conclusions here)*
+Thus, the frequency response of the analog fiber optic link was successfully studied, and the bandwidth was determined to be 95 kHz.
